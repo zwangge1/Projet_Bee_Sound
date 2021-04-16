@@ -1,7 +1,7 @@
 # Bienvenue dans l'espace SOUNDE_BEE-MATLAB
 Ici vous pouvez voir tous les fichiers significatifs et nos résultats finaux que nous avons créés dans l'apprentissage matlab
 
-## Dans le ficher SRC
+## Il y a deux ficher principale
 
 * Dossier `include`
 * Dossier `src`
