@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% COMPARAISON %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%% WANG & ROCK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% entr¨¦e et ¨¦chantillon 
+%% entrÂ¨Â¦e et Â¨Â¦chantillon 
 infox = audioinfo('echantillon_12s.mp3');
 [x,Fs] = audioread('echantillon_12s.mp3');
 
@@ -19,7 +19,7 @@ N = length(x);
 %% Le resultat de xcorr 
 [c,lags] = xcorr(x(:,2),y(:,2));
 
-%% Utilise fourrier pour r¨¦duisez la charge de calcule
+%% Utilise fourrier pour rÂ¨Â¦duisez la charge de calcule
 c_fft = ifft(fft(x,2*N).*conj(fft(y,2*N)));
 
 %% correlation 
