@@ -1,8 +1,7 @@
 # Bienvenue dans l'espace SOUNDE_BEE-MATLAB
+Ici vous pouvez voir tous les fichiers significatifs et nos résultats finaux que nous avons créés dans l'apprentissage matlab
 
-Dépôt pour les cours de GL à l'IUT de Cachan
-
-## Organisation des dossiers
+## Dans le ficher SRC
 
 * Dossier `include`
 * Dossier `src`
